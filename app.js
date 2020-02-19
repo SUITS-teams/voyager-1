@@ -14,8 +14,8 @@ let SuitSwitch = require('./models/suitswitch')
 
 //Database connector
 //mongoose.connect("mongodb+srv://Manny_Carr:Tvstudent1!@nasa-suits-2020-whk7y.mongodb.net/test?retryWrites=true&w=majority")
-//mongoose.connect("mongodb+srv://SUITS-tech_team:Tvstudent1!@cluster0-rqtoy.mongodb.net/test?retryWrites=true&w=majority")
-mongoose.connect('mongodb://localhost/spacesuit');
+mongoose.connect("mongodb+srv://SUITS-tech_team:Tvstudent1!@cluster0-rqtoy.mongodb.net/test?retryWrites=true&w=majority")
+//mongoose.connect('mongodb://localhost/spacesuit');
 
 //EJS framework for website display
 app.set('view engine', 'ejs')
